@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'MyriadPro-BoldCond';
+  src: url("./../fonts/MyriadPro-BoldCond.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: url("./../fonts/MyriadPro-Bold.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+.wrapper-header {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(37, 37, 37, 0.65);
+  position: absolute;
+  z-index: 1; }
+
+.header {
+  position: relative;
+  margin: 0 13px 0 13px; }
+
+.contact {
+  position: absolute;
+  left: 70px;
+  top: 36px;
+  width: 28%;
+  z-index: 2; }
+  .contact img {
+    float: left; }
+  .contact a {
+    font-family: 'MyriadPro-BoldCond', sans-serif;
+    width: 58%;
+    margin-left: 6px;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter; }
+  .contact a:nth-child(2) {
+    margin-top: 6px; }
+
+.header-start {
+  font-family: 'MyriadPro-BoldCond', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  top: 36px;
+  z-index: 2; }
+  .header-start span:first-child {
+    color: #e1560b; }
+  .header-start span:last-child {
+    color: #fff; }
+
+.header-title {
+  font-family: 'MyriadPro-Bold', sans-serif;
+  position: absolute;
+  top: 43%;
+  left: 70px;
+  z-index: 2; }
+  .header-title h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px; }
+  .header-title p {
+    color: #fff;
+    font-family: 'MyriadPro-BoldCond', sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+    width: 50%; }
+  .header-title p span {
+    float: left;
+    margin-top: 3px;
+    width: 100%; }
+
+.center {
+  margin: 20px 0 20px 0; }
+
+.center-wrapper-img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto; }
+
+.center-text {
+  position: absolute;
+  left: 100px;
+  top: 16%;
+  width: 80%; }
+  .center-text h2 {
+    font-family: 'MyriadPro-Bold', sans-serif;
+    font-size: 30px;
+    color: #fff; }
+  .center-text h3 {
+    color: #5cb110;
+    font-family: 'MyriadPro-Bold', sans-serif;
+    font-size: 18px;
+    padding-top: 11px; }
+  .center-text p {
+    color: #fff;
+    font-family: 'MyriadPro-BoldCond', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    padding-top: 15px;
+    width: 52%; }
+    .center-text p span {
+      float: left;
+      width: 100%; }
+
+.btm-add-course {
+  background-color: #466be7;
+  border-radius: 7px;
+  color: #fff;
+  font-family: 'MyriadPro-Bold', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  bottom: 17%;
+  left: 9.2%;
+  height: 44px;
+  width: 284px; }
+
+.center-text-free {
+  width: 80% !important; }
+
+.footer {
+  position: relative; }
+  .footer img {
+    display: block;
+    margin: 0 auto; }
+
+.footer-content {
+  color: #fff;
+  font-family: 'MyriadPro-BoldCond', sans-serif;
+  font-size: 18px;
+  top: 0;
+  left: 9%;
+  position: absolute; }
+  .footer-content h2 {
+    float: left;
+    width: 90%;
+    font-family: 'MyriadPro-Bold', sans-serif;
+    font-size: 30px;
+    padding-top: 38px;
+    padding-bottom: 20px; }
+  .footer-content h3 {
+    float: left;
+    font-family: 'MyriadPro-Bold', sans-serif;
+    padding-bottom: 30px;
+    width: 80%; }
+
+.footer-content-text span:first-child {
+  float: left;
+  font-family: 'MyriadPro-Bold', sans-serif;
+  width: 36%;
+  padding-left: 75px;
+  padding-bottom: 30px; }
+
+.footer-content-text span:last-child {
+  float: left;
+  width: 55%;
+  padding-bottom: 30px; }
+
+.foter-wraper-contact {
+  background-color: #5e5e5e;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 47.3181px;
+  margin-right: 47.3181px; }
+
+.foter-contact span {
+  float: left;
+  color: #fff;
+  font-family: 'MyriadPro-BoldCond', sans-serif;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-left: 39px;
+  width: 50%; }
+
+.foter-contact span:last-child {
+  padding-left: 59px; }
+
+.foter-social img {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 30px; }
+
+.foter-social a:first-child {
+  padding-left: 39px; }
+
+.foter-social a:nth-child(4) {
+  margin-left: 128px; }
